@@ -256,13 +256,6 @@
   resolved "https://registry.npmjs.org/@assemblyscript/loader/-/loader-0.10.1.tgz"
   integrity sha512-H71nDOOL8Y7kWRLqf6Sums+01Q5msqBW2KhDUTemh1tvY04eSkSXrK0uj/4mmY0Xr16/3zyZmsrxN7CKuRbNRg==
 
-"@auth0/angular-jwt@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@auth0/angular-jwt/-/angular-jwt-5.0.2.tgz#0a23f240e8c6ed37c5c7a354ad79a755a217936e"
-  integrity sha512-rSamC9mu+gUxoR86AXcIo+KD7xRIro+/iu1F2Ld85YAZEVKlpB5vYG+g0yGaEOqjtQWP/i0H6fi6XMGPVHSYYQ==
-  dependencies:
-    tslib "^2.0.0"
-
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.14.5":
   version "7.15.8"
   resolved "https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.15.8.tgz"
@@ -2448,10 +2441,10 @@ base64-arraybuffer@~1.0.1:
   resolved "https://registry.npmjs.org/base64-arraybuffer/-/base64-arraybuffer-1.0.1.tgz"
   integrity sha512-vFIUq7FdLtjZMhATwDul5RZWv2jpXQ09Pd6jcVEOvIsqCWTRFD/ONHNfyOS8dA/Ippi5dsIgpyKWKZaAKZltbA==
 
-base64-js@1.3.1, base64-js@^1.2.0, base64-js@^1.3.1:
-  version "1.3.1"
-  resolved "https://registry.npmjs.org/base64-js/-/base64-js-1.3.1.tgz"
-  integrity sha512-mLQ4i2QO1ytvGWFWmcngKO//JXAQueZvwEKtjgQFM4jIK0kU+ytMfplL8j+n5mspOfjHwoAg+9yhb7BwAHm36g==
+base64-js@^1.2.0, base64-js@^1.3.1, base64-js@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
+  integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
 
 base64id@2.0.0, base64id@~2.0.0:
   version "2.0.0"
@@ -4866,9 +4859,9 @@ jest-worker@^27.0.2:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
-js-sha256@0.9.0:
+js-sha256@^0.9.0:
   version "0.9.0"
-  resolved "https://registry.npmjs.org/js-sha256/-/js-sha256-0.9.0.tgz"
+  resolved "https://registry.yarnpkg.com/js-sha256/-/js-sha256-0.9.0.tgz#0b89ac166583e91ef9123644bd3c5334ce9d0966"
   integrity sha512-sga3MHh9sgQN2+pJ9VYZ+1LPwXOxuBJBA5nrR5/ofPfuiJBE2hnjsaN8se8JznOmGLN2p49Pe5U/ttafcs/apA==
 
 js-tokens@^4.0.0:
@@ -5057,13 +5050,13 @@ karma@^6.3.16:
     ua-parser-js "^0.7.30"
     yargs "^16.1.1"
 
-keycloak-js@^15.0.2:
-  version "15.0.2"
-  resolved "https://registry.npmjs.org/keycloak-js/-/keycloak-js-15.0.2.tgz"
-  integrity sha512-dv2a4NcPSH3AzGWG3ZtB+VrHpuQLdFBYXtQBj/+oBzm6XNwnVAMdL6LIC0OzCLQpn3rKTQJtNSATAGhbKJgewQ==
+keycloak-js@^17.0.0:
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/keycloak-js/-/keycloak-js-17.0.0.tgz#d6f0b22cd6606685a59c9a3c5d41cdccaada45fa"
+  integrity sha512-NEuEur5zg9uAcY9UAz7pgBjJlJcBW2VPMss6pCIfJf8JgIMnEPHwvGQIKesCIq2N5Ut+vf7NU+ICT5Xk/qwesQ==
   dependencies:
-    base64-js "1.3.1"
-    js-sha256 "0.9.0"
+    base64-js "^1.5.1"
+    js-sha256 "^0.9.0"
 
 kind-of@^6.0.2:
   version "6.0.3"
