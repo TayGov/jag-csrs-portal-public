@@ -4962,12 +4962,12 @@ ng-busy@^12.0.1:
   dependencies:
     tslib "^2.0.3"
 
-ngx-mask@^12.0.0:
-  version "12.0.0"
-  resolved "https://registry.yarnpkg.com/ngx-mask/-/ngx-mask-12.0.0.tgz#8eb363cc609ab71b687bbe6f87497c461ca120b1"
-  integrity sha512-q4vUjhjJfg4faRud/tUdCTOs3JA6B+rBB2OPZ2xBZy4LNTRKGfUK683LrDCitMVBezjEAVrkQdUT1I4C7LXBZQ==
+ngx-mask@^13.1.4:
+  version "13.1.4"
+  resolved "https://registry.yarnpkg.com/ngx-mask/-/ngx-mask-13.1.4.tgz#daa0c1554540f67c8acf6cc791f95ebedd83c2c4"
+  integrity sha512-/RNVTyRlBVR9LQOtdX5ZYxbMbt9h6VRaK3lEkEepT6z7XbTdt5Uc7j3rFYo7cOKQEIaU2BcE8ed2yUYrRpZtzg==
   dependencies:
-    tslib "^2.1.0"
+    tslib "^2.3.0"
 
 ngx-progressbar@^6.1.1:
   version "6.1.1"
