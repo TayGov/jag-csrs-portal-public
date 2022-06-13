@@ -39,7 +39,7 @@
     "keycloak-js": "^15.0.2",
     "ng-busy": "^12.0.1",
     "ngx-mask": "^12.0.0",
-    "ngx-progressbar": "^6.1.1",
+    "ngx-progressbar": "^9.0.0",
     "rxjs": "~7.5.4",
     "ts-generic-collections-linq": "^1.0.7",
     "tslib": "^2.3.0",
